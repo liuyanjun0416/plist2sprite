@@ -1,0 +1,252 @@
+{
+  "frames": {
+    "stand0000.png": {
+      "frame": {
+        "x": 350,
+        "y": 178,
+        "w": 114,
+        "h": 86
+      },
+      "trimmed": true,
+      "rotated": false,
+      "spriteSourceSize": {
+        "x": 25,
+        "y": 33,
+        "w": 114,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 150,
+        "h": 150
+      }
+    },
+    "stand0001.png": {
+      "frame": {
+        "x": 234,
+        "y": 178,
+        "w": 114,
+        "h": 86
+      },
+      "trimmed": true,
+      "rotated": false,
+      "spriteSourceSize": {
+        "x": 25,
+        "y": 33,
+        "w": 114,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 150,
+        "h": 150
+      }
+    },
+    "stand0002.png": {
+      "frame": {
+        "x": 118,
+        "y": 178,
+        "w": 114,
+        "h": 86
+      },
+      "trimmed": true,
+      "rotated": false,
+      "spriteSourceSize": {
+        "x": 25,
+        "y": 33,
+        "w": 114,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 150,
+        "h": 150
+      }
+    },
+    "stand0003.png": {
+      "frame": {
+        "x": 2,
+        "y": 178,
+        "w": 114,
+        "h": 86
+      },
+      "trimmed": true,
+      "rotated": false,
+      "spriteSourceSize": {
+        "x": 25,
+        "y": 33,
+        "w": 114,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 150,
+        "h": 150
+      }
+    },
+    "stand0004.png": {
+      "frame": {
+        "x": 350,
+        "y": 90,
+        "w": 114,
+        "h": 86
+      },
+      "trimmed": true,
+      "rotated": false,
+      "spriteSourceSize": {
+        "x": 25,
+        "y": 33,
+        "w": 114,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 150,
+        "h": 150
+      }
+    },
+    "stand0005.png": {
+      "frame": {
+        "x": 234,
+        "y": 90,
+        "w": 114,
+        "h": 86
+      },
+      "trimmed": true,
+      "rotated": false,
+      "spriteSourceSize": {
+        "x": 25,
+        "y": 33,
+        "w": 114,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 150,
+        "h": 150
+      }
+    },
+    "stand0006.png": {
+      "frame": {
+        "x": 118,
+        "y": 90,
+        "w": 114,
+        "h": 86
+      },
+      "trimmed": true,
+      "rotated": false,
+      "spriteSourceSize": {
+        "x": 25,
+        "y": 33,
+        "w": 114,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 150,
+        "h": 150
+      }
+    },
+    "stand0007.png": {
+      "frame": {
+        "x": 2,
+        "y": 90,
+        "w": 114,
+        "h": 86
+      },
+      "trimmed": true,
+      "rotated": false,
+      "spriteSourceSize": {
+        "x": 25,
+        "y": 33,
+        "w": 114,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 150,
+        "h": 150
+      }
+    },
+    "stand0008.png": {
+      "frame": {
+        "x": 350,
+        "y": 2,
+        "w": 114,
+        "h": 86
+      },
+      "trimmed": true,
+      "rotated": false,
+      "spriteSourceSize": {
+        "x": 25,
+        "y": 33,
+        "w": 114,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 150,
+        "h": 150
+      }
+    },
+    "stand0009.png": {
+      "frame": {
+        "x": 234,
+        "y": 2,
+        "w": 114,
+        "h": 86
+      },
+      "trimmed": true,
+      "rotated": false,
+      "spriteSourceSize": {
+        "x": 25,
+        "y": 33,
+        "w": 114,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 150,
+        "h": 150
+      }
+    },
+    "stand0010.png": {
+      "frame": {
+        "x": 118,
+        "y": 2,
+        "w": 114,
+        "h": 86
+      },
+      "trimmed": true,
+      "rotated": false,
+      "spriteSourceSize": {
+        "x": 25,
+        "y": 33,
+        "w": 114,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 150,
+        "h": 150
+      }
+    },
+    "stand0011.png": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 114,
+        "h": 86
+      },
+      "trimmed": true,
+      "rotated": false,
+      "spriteSourceSize": {
+        "x": 25,
+        "y": 33,
+        "w": 114,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 150,
+        "h": 150
+      }
+    }
+  },
+  "meta": {
+    "image": "snowman.png",
+    "size": {
+      "w": 466,
+      "h": 266
+    },
+    "scale": 1
+  }
+}
