@@ -9,11 +9,11 @@ function walk(node) {
       i++;
       const child2 = node.children[i];
 
-      if(child.content === "offset"){
+      if (child.content === "offset") {
         ret["trimmed"] = checkOffset(child2.content);
-      }else if(child.content === "sourceColorRect"){
+      } else if (child.content === "sourceColorRect") {
         ret["spriteSourceSize"] = walk(child2);
-      }else{
+      } else {
         ret[child.content] = walk(child2);
       }
     }
@@ -26,6 +26,8 @@ function walk(node) {
     return parseInt(node.content);
   } else if (node.name === "false") {
     return false;
+  } else if (node.name === "true") {
+    return true;
   } else {
     console.log("unknown", node);
   }
@@ -42,40 +44,40 @@ function parse(xml) {
   return ret;
 }
 
-function rewriteMeta(doc){
-    doc.meta = {
-      image:doc.metadata.realTextureFileName,
-      size:doc.metadata.size,
-      scale:1
-    }
-    delete doc.metadata;
-    return doc;
+function rewriteMeta(doc) {
+  doc.meta = {
+    image: doc.metadata.realTextureFileName,
+    size: doc.metadata.size,
+    scale: 1
+  };
+  delete doc.metadata;
+  return doc;
 }
 
-function checkOffset(string){
+function checkOffset(string) {
   let matchArr = string.match(/{(-?\d+),(-?\d+)}/);
-  if(parseInt(matchArr[1]) === 0 && parseInt(matchArr[2] === 0)){
+  if (parseInt(matchArr[1]) === 0 && parseInt(matchArr[2] === 0)) {
     return false;
   }
   return true;
 }
 
-function getPositionAndSize(string){
-  let regexGlobal = /{(-?\d+),(-?\d+)}/g
-  let regex = /{(-?\d+),(-?\d+)}/
+function getPositionAndSize(string) {
+  let regexGlobal = /{(-?\d+),(-?\d+)}/g;
+  let regex = /{(-?\d+),(-?\d+)}/;
   let matchArr = string.match(regexGlobal);
   let result = {};
-  if(!matchArr){
+  if (!matchArr) {
     return string;
   }
-  if(matchArr.length === 2){
+  if (matchArr.length === 2) {
     let position = matchArr[0].match(regex);
     let size = matchArr[1].match(regex);
     result.x = parseInt(position[1]);
     result.y = parseInt(position[2]);
     result.w = parseInt(size[1]);
     result.h = parseInt(size[2]);
-  }else{
+  } else {
     let size = string.match(regex);
     result.w = parseInt(size[1]);
     result.h = parseInt(size[2]);
