@@ -48,7 +48,8 @@ function rewriteMeta(doc) {
   doc.meta = {
     image: doc.metadata.realTextureFileName,
     size: doc.metadata.size,
-    scale: 1
+    scale: 1,
+    smartupdate:doc.metadata.smartupdate
   };
   delete doc.metadata;
   return doc;
